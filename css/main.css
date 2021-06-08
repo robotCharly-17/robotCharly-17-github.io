@@ -1,0 +1,79 @@
+.portada {
+    background-image: url(https://images8.alphacoders.com/949/thumb-1920-949513.jpg);
+    background-size: cover;
+    width: auto;
+    min-height: 100vh;
+    display: flex;
+}
+
+header {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    text-align:
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav li {
+    list-style: none;
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    background: rgba(255, 255, 255, 50);
+    position: relative;
+    margin: auto auto;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: 800;
+    transition: 2s;
+    display: inline-block;
+}
+
+.button:active {
+    transition: 1s;
+    transform: scale(.9);
+}
+
+.button:hover {
+    background-color: skyblue;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    background: rgba(255, 255, 255, 50);
+    position: relative;
+    margin: auto auto;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: 800;
+    transition: 2s;
+    display: inline-block;
+}
+
+.button:active {
+    transition: 1s;
+    transform: scale(.9);
+}
+
+.button:hover {
+    background-color: skyblue;
+}
